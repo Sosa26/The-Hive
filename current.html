@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>CapitalKorp!</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/media.css" rel="stylesheet">
+  <!-- Latest compiled and minified CSS -->
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+        <div id="mynavigation" class="navbar navbar-default navbar-fixed top">
+                <div class="container">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a href="#header" class="navbar-brand">The Hive</a>
+                  </div>
+                  <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                      <li>
+                        <a href="index.html">Home</a>
+                      </li>
+                      <li>
+                        <a href="#services">Services</a>
+                      </li>
+                      <li>
+                        <a href="#aboutus">About Us</a>
+                      </li>
+                      <li>
+                        <a href="#contact">Contact Us</a>
+                      </li>
+                      <li>
+                        <a href="current.html">Weather</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+  
+    <div class="jumbotron" style="margin-bottom: 0px; color: white; background-color: black;">
+        <h2 class="text-center text-primary">HIVE Weather</h2>
+
+    </div>
+    <div class="container" style="height: 650px;">
+        <div class="row" style="margin-bottom: 20px;">
+                <h3 class="text-center text-primary">Please enter city name: </h3>
+                <span id="error"></span>
+            </div>
+     <div class="row form-group form-inline" id="rowDiv">
+        <input type="text" name="city" id="city" class="form-control" placeholder="City Name">
+        <button id="submitWeather" class="btn btn-primary">Search City</button>
+     </div>
+     <div id="show"></div>
+
+  </div>
+
+  <!-- <div class="footer">
+      <div class="container">
+          <div class="row text-center" style="padding-top: 50px">
+              <p style="color: white; font-size: 20px; font-weight: bold;">Copyright &copy; 2018 by
+                <strong>CapitalKorp Solutions</strong>. All rights reserved.</p>
+          </div>
+      </div>
+  </div> -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+  <script src="js/weather.js"></script>
+</body>
+
+</html>
